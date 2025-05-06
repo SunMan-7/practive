@@ -52,11 +52,13 @@ input {
 }
 
 button {
-  -webkit-appearance: button;
+  -webkit-appearance: button; /* For WebKit browsers */
+  appearance: button;         /* Standard property for other browsers */
   text-transform: none;
   cursor: pointer;
   background-color: transparent;
   background-image: none;
 }
+
 
 
